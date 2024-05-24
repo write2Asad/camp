@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Text Change</h1>
+
+    <p>Click on Button to change the Text</p>
+
+     <p id="demo">What is your name?</p>
+
+     <button type="button" onclick="myFunction()">Answer</button>
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML="My name is Arslan";
+        document.getElementById("1").style.fontSize= "25px";
+        document.getElementById("1").style.color = "Yellow";
+        document.getElementById("1").style.backgroundColor = "Black";
+    }
+</script>    
+
+<h1>Change Style, Color And Size</h1>
+<p id="1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="myFunction()">Change the Styles</button>
+
+
+</body>
+</html>
