@@ -9,10 +9,12 @@ export const routes: Routes = [
   { 
     path: 'views', 
     component: ViewsComponent,
+    title:'Views Page',
     children: [
+      // { path: '', redirectTo: '/sales', pathMatch: 'full' },
       { path: 'rent', component: RentComponent },
-      { path: 'administrator', component: AdminComponent },
-      { path: 'sales', component: SalesComponent }
+      { path: 'admin', component: AdminComponent },
+      { path: 'sales', component: SalesComponent }, 
     ]
   }
 ];
